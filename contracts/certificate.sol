@@ -8,8 +8,10 @@ contract certi {
   constructor() {
     admin = msg.sender;    
   }
+  
   modifier onlyAdmin {
       require(msg.sender == admin, "Insuficient privilage");
+      _ ;
   }
   
   struct certificate {
@@ -18,4 +20,19 @@ contract certi {
       string grade;
       string date;
   }
+  
+  mapping (string => certificate) public certificateDetails;
+  
+  function newCertificate (
+      string memory _certificateID,
+      string memory _courseName,
+      string memory _candidateName,
+      string memory _grade,
+      string memory _date ) public onlyAdmin {
+          certificateDetails[_certificateID] = certificate(
+                                                    _courseName,
+                                                    _candidateName,
+                                                    _grade,
+                                                    _date);
+      }
 }
