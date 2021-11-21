@@ -1,0 +1,40 @@
+/* This is for certificate.html page to view Certificate issued by organization */
+
+@font-face {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/opensans/v18/mem8YaGs126MiZpBA-UFVZ0e.ttf)
+      format("truetype");
+  }
+  @font-face {
+    font-family: "Pinyon Script";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/pinyonscript/v11/6xKpdSJbL9-e9LuoeQiDRQR8WOXaPw.ttf)
+      format("truetype");
+  }
+  @font-face {
+    font-family: "Rochester";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/rochester/v11/6ae-4KCqVa4Zy6Fif-UC2FHS.ttf)
+      format("truetype");
+  }
+  .cursive {
+    font-family: "Pinyon Script", cursive;
+  }
+  .sans {
+    font-family: "Open Sans", sans-serif;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  .block {
+    display: block;
+  }
+  .underline {
+    border-bottom: 1px solid #777;
+    padding: 5px;
+    margin-bottom: 15px;
+  }
