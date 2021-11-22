@@ -10,7 +10,6 @@ Contains code for DevJams-21 -->
 - <a href="https://github.com/srini047/dev-jams-21">Github</a>
 - <a href="about:blank">Landing</a>
 - <a href="about:blank">Issuing</a>
-- <a href="about:blank">Youtube</a>
 - <a href="about:blank">Elevator Pitch</a>
 
 ## Team Name: iTechians
