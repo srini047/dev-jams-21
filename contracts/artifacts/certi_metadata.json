@@ -1,0 +1,118 @@
+{
+    "compiler": {
+        "version": "0.8.7+commit.e28d00a7"
+    },
+    "language": "Solidity",
+    "output": {
+        "abi": [
+            {
+                "inputs": [],
+                "stateMutability": "nonpayable",
+                "type": "constructor"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "string",
+                        "name": "",
+                        "type": "string"
+                    }
+                ],
+                "name": "certificateDetails",
+                "outputs": [
+                    {
+                        "internalType": "string",
+                        "name": "courseName",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "candidateName",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "grade",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "date",
+                        "type": "string"
+                    }
+                ],
+                "stateMutability": "view",
+                "type": "function"
+            },
+            {
+                "inputs": [
+                    {
+                        "internalType": "string",
+                        "name": "_certificateID",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "_courseName",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "_candidateName",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "_grade",
+                        "type": "string"
+                    },
+                    {
+                        "internalType": "string",
+                        "name": "_date",
+                        "type": "string"
+                    }
+                ],
+                "name": "newCertificate",
+                "outputs": [],
+                "stateMutability": "nonpayable",
+                "type": "function"
+            }
+        ],
+        "devdoc": {
+            "kind": "dev",
+            "methods": {},
+            "version": 1
+        },
+        "userdoc": {
+            "kind": "user",
+            "methods": {},
+            "version": 1
+        }
+    },
+    "settings": {
+        "compilationTarget": {
+            "contracts/4_certificate.sol": "certi"
+        },
+        "evmVersion": "london",
+        "libraries": {},
+        "metadata": {
+            "bytecodeHash": "ipfs"
+        },
+        "optimizer": {
+            "enabled": false,
+            "runs": 200
+        },
+        "remappings": []
+    },
+    "sources": {
+        "contracts/4_certificate.sol": {
+            "keccak256": "0xb046ce831191d3bc85672322060cbf1545c22e25ed0a21fff088f99c8ee8f09d",
+            "license": "MIT",
+            "urls": [
+                "bzz-raw://8ee7e1e779da65b5f7ceddd342b1382cf5ced1381ca9ecf0b5ea5a0614c2731e",
+                "dweb:/ipfs/QmXpSKcuDnXTmypTkxBKVeQWAxuWNhCrJtPwFxfzB6W32Q"
+            ]
+        }
+    },
+    "version": 1
+}
